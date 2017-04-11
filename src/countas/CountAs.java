@@ -23,11 +23,10 @@ public class CountAs {
       List<String> lines = new ArrayList<>(Files.readAllLines(path));
       for (String line : lines) {
         String lowercaseLine = line.toLowerCase();
-        while (lowercaseLine.length() != 0) {
-          if (lowercaseLine.charAt(0) == 'a') {
+        for (int i = 0; i < lowercaseLine.length(); i++) {
+          if (lowercaseLine.charAt(i) == 'a') {
             aCounter++;
           }
-          lowercaseLine.substring(1);
         }
       }
     } catch (IOException e) {
