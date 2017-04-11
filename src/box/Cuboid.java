@@ -16,4 +16,8 @@ public class Cuboid {
     int surface = 2 * (x*y + x*z + z*x);
     return surface;
   }
+  public int getVolume() {
+    int volume = x*y*z;
+    return volume;
+  }
 }
