@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f5f1ec9-b7e6-4a7b-9f66-2893e26ad503" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/box/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/box/Cuboid.java" afterPath="$PROJECT_DIR$/src/box/Cuboid.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,8 +35,8 @@
       <file leaf-file-name="Cuboid.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/box/Cuboid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="18" />
+            <state relative-caret-position="255">
+              <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -87,8 +85,8 @@
         <option value="$PROJECT_DIR$/src/seconds/Seconds.java" />
         <option value="$PROJECT_DIR$/src/countas/CountAs.java" />
         <option value="$PROJECT_DIR$/src/pirates/PirateCounter.java" />
-        <option value="$PROJECT_DIR$/src/box/Cuboid.java" />
         <option value="$PROJECT_DIR$/src/box/Main.java" />
+        <option value="$PROJECT_DIR$/src/box/Cuboid.java" />
       </list>
     </option>
   </component>
@@ -668,12 +666,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1491894664997</updated>
-      <workItem from="1491894674077" duration="5876000" />
+      <workItem from="1491894674077" duration="6241000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5876000" />
+    <option name="totallyTimeSpent" value="6241000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -781,18 +779,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/box/Box.java">
+    <entry file="file://$PROJECT_DIR$/src/box/Cuboid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/box/Cuboid.java">
+    <entry file="file://$PROJECT_DIR$/box/Box.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="18" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

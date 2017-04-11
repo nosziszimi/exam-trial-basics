@@ -13,7 +13,7 @@ public class Cuboid {
   }
 
   public int getSurface() {
-    int surface = 2 * (x*y + x*z + z*x);
+    int surface = 2 * (x*y + x*z + z*y);
     return surface;
   }
   public int getVolume() {
