@@ -32,4 +32,4 @@ The application is accepted if:
 ## 5. Question time! (~15 mins) [2p]
 
 ### How can you generate a random number? [2p]
-#### Your answer: [add your answer here]
+#### Your answer: The Math.random() method gives back a double which is greather or equal to 0 and smaller than 1. If we need an integer number, we can use (int) before Math.random() * 10. We should multiply it by 10 because when it makes an integer from the random number, it will  take the whole part of it. So with (int)(Math.random() * 10) we will get random numbers between 0 and 9. We can get random integers in an interval with adding the random integer number to the bottom of the interval and multiplying the random number with the difference of the bottom and the top of the interval. For example to generate random integers between 25 and 110 we should use this: 25 + (int) (Math.random() * 85)
