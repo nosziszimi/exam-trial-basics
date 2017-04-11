@@ -7,6 +7,11 @@ import java.util.List;
 /**
  * Created by Nóra on 2017. 04. 11..
  */
+
+// Create a function that takes a list as a parameter,
+// and returns a new list with every second element from the original list
+// example: [1, 2, 3, 4, 5] should produce [2, 4] - print this result
+
 public class Seconds {
   public static void main(String[] args) {
     ArrayList<Integer> originalList = new ArrayList<>(Arrays.asList(1,2,3,4,5));
