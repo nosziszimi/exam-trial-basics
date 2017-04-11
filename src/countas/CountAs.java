@@ -22,15 +22,16 @@ public class CountAs {
     try {
       List<String> lines = new ArrayList<>(Files.readAllLines(path));
       for (String line : lines) {
-        while (line.length() != 0) {
-          if (line.charAt(0) == 'a') {
+        String lowercaseLine = line.toLowerCase();
+        while (lowercaseLine.length() != 0) {
+          if (lowercaseLine.charAt(0) == 'a') {
             aCounter++;
           }
-          line.substring(1);
+          lowercaseLine.substring(1);
         }
       }
     } catch (IOException e) {
-      System.out.println(0);
+      aCounter = 0;
     }
     return aCounter;
   }
