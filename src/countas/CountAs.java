@@ -23,9 +23,10 @@ public class CountAs {
       List<String> lines = new ArrayList<>(Files.readAllLines(path));
       for (String line : lines) {
         while (line.length() != 0) {
-          if (fileName.charAt(0) == 'a') {
+          if (line.charAt(0) == 'a') {
             aCounter++;
           }
+          line.substring(1);
         }
       }
     } catch (IOException e) {
